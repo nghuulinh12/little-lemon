@@ -141,7 +141,7 @@ fun OnboardingScreen(navController: NavHostController) {
 @Preview(showBackground = true)
 @Composable
 fun OnboardingPreview() {
-//    OnboardingScreen(navController = NavHostController)
+    OnboardingScreen(navController = NavHostController(LocalContext.current))
 }
 
 
